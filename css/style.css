@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content-default{
+    padding: 20px;
+}
+
+.content-space--default{
+    margin: 2px;
+    border-radius: 5px;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.content-flex{
+    display: flex
+}
+.content-flexgrid{
+    display: grid;
+}
+
+.content-flex--direction{
+    flex-direction: row;
+}
+
+.content-flex--reverse{
+    flex-direction: row-reverse;
+}
+
+.content-justify{
+    justify-content: center;
+}
+
+.content-align{
+    align-items: start;
+}
+
+.content-justify--between{
+    justify-content: space-between;
+}
+
+.bg-color--purple{
+    background: #800080;
+    color: #fff;
+}
+.bg-color--white{
+    background: #fff;
+    color: #fff;
+}
+
+/* paralax */
+.container-paralax{
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-paralax--data{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-img--version--1{
+    background-image: url('https://www.cbds.com.br/wp-content/uploads/2020/08/original-23e7aa2eb1892703792b943662428e54-1536x1024.jpeg');
+}
+
+.bg-img--version--2{
+    background-image: url('https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2016/05/photo-1529101091764-c3526daf38fe.jpg');
+}
+
+
+
+/* flex wrap */
+.flex-wrap-left{
+    flex: 1;
+    margin: 50px;
+    width: 33%;
+    height: 500px;
+    justify-content: center;
+    float: left;
+}
+.flex-wrap-right{
+    flex: 1;
+    margin: 50px;
+    width: 33%;
+    height: 500px;
+    justify-content: center;
+    float: right;
+}
+
+.flex-wrap--fluid{
+    flex: 1;
+    margin: 2px;
+    justify-content: center;
+}
+
+/* flex item */
+.flex-item--1{
+    flex: 1;
+    margin: 10px;
+}
+
+.flex-item--2{
+    flex: 2;
+    margin: 2px;
+}
+
+
